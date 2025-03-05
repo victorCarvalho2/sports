@@ -1,3 +1,5 @@
+
+
 * {
     margin: 0;
     padding: 0;
@@ -113,17 +115,16 @@ section img:hover {
 
 /* Estilização de artigos (blocos de produtos) */
 article {
-    height: auto;
     background-color: #fff;
     padding: 20px;
     border-radius: 15px;
     margin-top: 20px;
-    /* text-align: center; */
-    /* box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); */
+    text-align: center;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
 }
 
 article img {
-    width: 150px;
+    width: 160px;
     margin: 10px;
 }
 
@@ -132,22 +133,13 @@ h2, h3, h4 {
     margin-bottom: 15px;
 }
 
-
-
-/* Ajuste do link do texto */
-article a {
-    color: #007BFF;
-    text-decoration: none;
-    font-weight: bold;
-}
-
 /* Rodapé */
 footer {
     background-color: #e0e0e0; /* Cinza claro */
     color: #333;
     text-align: center;
-    padding: 10px;
-    margin-top: 0px;
+    padding: 20px;
+    margin-top: 20px;
     font-size: 1.1em;
 }
 
